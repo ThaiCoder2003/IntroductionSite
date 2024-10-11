@@ -8,6 +8,10 @@ body {
     background-color: #f4f4f4;
 }
 
+h1, h2, h3 {
+    color: #35424a;
+}
+
 #personal-info {
     background-color: #ffffff;
     padding: 20px;

@@ -1,4 +1,4 @@
-# Group Assignment Website
+# Group Information Website
 
 This repository contains the HTML website for Group Assignment 3 of our Web Application Development course.
 
