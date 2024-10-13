@@ -7,19 +7,30 @@
     <link rel="stylesheet" href="default.css">
 </head>
 <body>
-    <div class="center">Thành Viên Nhóm</div>
-    <table class="button-container">
-        <!--placeholder tạm thời-->
-        <tr>
-            <th>Number</th>
-            <th>Name</th>
-            <th>Picture</th>
-        </tr>
-        <tr>
-            <td><button class="student-button" onclick="location.href='members/21127545/21127545.html'">Đặng Quốc Thái</button></td>
-            <td><button class="student-button" onclick="location.href='members/21127655/21127655.html'">Lê Phan Thanh Nhân</button></td>
-            <td><button class="student-button" onclick="location.href='members/21127671/21127671.html'">Nguyễn Hoàng Phúc</button></td>
-        </tr>
-    </table>
+    <h1>GROUP NTH</h1>
+<div class="box">
+    <section>
+        <h2>LIST OF MEMBERS</h2>
+        <p>1. LÊ PHAN THANH NHÂN - 21127655</p>
+        <p>2. ĐẶNG QUỐC THÁI - 21127545</p>
+        <p>3. PHẠM THÁI HOÀNG - 21127671</p>
+    </section>
+    <section>   
+        <img src="Picture.png" alt="Example Image" usemap="#image-map" width="300" height="300">
+
+        <!-- Tạo bản đồ -->
+        <map name="image-map">
+            <!-- Khu vực dạng hình chữ nhật -->
+            <area shape="poly" coords="0,0,150,300,0,300" alt="Section 1" href="members/21127655/21127655.html">
+            
+            <!-- Khu vực dạng hình tròn -->
+            <area shape="poly" coords="300,0,150,300,300,300" alt="Section 1" href="members/21127671/21127671.html">
+            
+            <!-- Khu vực dạng đa giác -->
+            <area shape="poly" coords="0,0,150,0,150,300" alt="Section 1" href="members/21127545/21127545.html">
+        </map>
+    </section>
+</div>
+
 </body>
 </html>
