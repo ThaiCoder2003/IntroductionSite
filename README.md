@@ -6,7 +6,7 @@ The website provides personal information about our group members and serves as 
 
 ## How to View
 
-You can view the website by visiting: https://introduction-site.vercel.app/
+You can view the website by visiting: https://introduction-site-theta.vercel.app/
 
 Alternatively, you can clone this repository and open `index.html` in your web browser.
 
